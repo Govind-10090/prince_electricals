@@ -14,18 +14,18 @@
             "use": "@vercel/static"
         }
     ],
-    "routes": [
+    "rewrites": [
         {
-            "src": "/styles.css",
-            "dest": "/styles.css"
+            "source": "/styles.css",
+            "destination": "/styles.css"
         },
         {
-            "src": "/script.js",
-            "dest": "/script.js"
+            "source": "/script.js",
+            "destination": "/script.js"
         },
         {
-            "src": "/(.*)",
-            "dest": "/$1"
+            "source": "/(.*)",
+            "destination": "/$1"
         }
     ],
     "headers": [
