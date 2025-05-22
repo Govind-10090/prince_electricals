@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Electricals and Repairs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Prince Electricals</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="highlight">Prince Electricals</span>
+                <span class="subtitle">and Repairs</span>
+            </h1>
+            <p class="tagline">Your trusted partner for all electrical needs</p>
+            
+            <div class="hero-features">
+                <div class="feature">
+                    <i class="fas fa-tools"></i>
+                    <span>Expert Repairs</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-bolt"></i>
+                    <span>24/7 Service</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-star"></i>
+                    <span>Quality Work</span>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="#contact" class="cta-button primary">Contact Now</a>
+                <a href="#services" class="cta-button secondary">Our Services</a>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <i class="fas fa-plug"></i>
+                    <h3>Electrical Wires</h3>
+                    <p>High-quality copper and aluminum wires for all your electrical needs</p>
+                    <span class="price">Starting from ₹200</span>
+                </div>
+                <div class="product-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>LED Bulbs</h3>
+                    <p>Energy-efficient LED bulbs for home and commercial use</p>
+                    <span class="price">Starting from ₹150</span>
+                </div>
+                <div class="product-card">
+                    <i class="fas fa-fan"></i>
+                    <h3>Ceiling Fans</h3>
+                    <p>Premium quality fans with warranty</p>
+                    <span class="price">Starting from ₹1,500</span>
+                </div>
+                <div class="product-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Power Tools</h3>
+                    <p>Professional grade electrical tools and equipment</p>
+                    <span class="price">Starting from ₹800</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Fan Motor Rewinding</h3>
+                    <p>Professional fan motor repair and rewinding services</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Switchboard Repair</h3>
+                    <p>Complete switchboard maintenance and repair</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Home Service</h3>
+                    <p>Quick and reliable home electrical service</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Electrical Fitting</h3>
+                    <p>Professional electrical installation and fitting</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Zingogi Ward, Near HDFC Bank, Bhadravati, Maharashtra 442902</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>99999999</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contact@princeelectricals.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>9 AM – 8 PM, Mon–Sat</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" name="user_name" placeholder="Your Name" required>
+                        <input type="email" name="user_email" placeholder="Your Email" required>
+                        <input type="tel" name="user_phone" placeholder="Your Phone" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.1234567890123!2d79.11438434436867!3d20.10600167248559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0c0c0c0c0c0%3A0x0!2zMjDCsDA2JzIxLjYiTiA3OcKwMDYnNTEuOCJF!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin"
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Prince Electricals and Repairs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
